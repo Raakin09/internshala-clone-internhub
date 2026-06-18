@@ -4,6 +4,10 @@ import { useEffect, useState } from "react";
 
 export default function AdminDashboard() {
   const router = useRouter();
+  const handleLogout = () => {
+    localStorage.removeItem("isAdmin");
+    router.push("/admin/login");
+  };
 
   const [stats, setStats] =
     useState<any>(null);
@@ -40,6 +44,28 @@ export default function AdminDashboard() {
         internships and
         applications
       </p>
+
+      <div
+  style={{
+    display: "flex",
+    justifyContent: "flex-end",
+    marginBottom: "20px",
+  }}
+>
+  <button
+    onClick={handleLogout}
+    style={{
+      background: "#ef4444",
+      color: "white",
+      border: "none",
+      padding: "10px 16px",
+      borderRadius: "8px",
+      cursor: "pointer",
+    }}
+  >
+    Logout
+  </button>
+</div>
 
       <div className={styles.stats}>
         <div className={styles.statCard}>
