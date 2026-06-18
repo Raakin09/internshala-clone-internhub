@@ -1,20 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
-import HomePage from "@/components/HomePage";
 import Internships from "@/components/internships";
-import Jobs from "@/components/Jobs";
 
-export default function Home() {
+export default function InternshipsPage() {
   return (
     <>
       <Navbar />
-
-      <HomePage />
-
       <Internships />
-
-      <Jobs />
-
       <Footer />
     </>
   );

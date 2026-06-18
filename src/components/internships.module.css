@@ -1,0 +1,106 @@
+.container {
+    width: 82%;
+    margin: auto;
+    padding: 50px 0;
+    
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  
+  .categories {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+  }
+  
+  .label {
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  .categoryBtn {
+    border: none;
+    background: #f3f4f6;
+    padding: 10px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #3f3f3f;
+  }
+  
+  .cardContainer {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .card {
+    flex: 1;
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    border: 1px solid #e5e7eb;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow:
+      0 8px 25px rgba(0,0,0,0.08);
+  }
+  
+  .hiring {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #2563eb;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .company {
+    color: #0055ff;
+    margin-bottom: 25px;
+  }
+  
+  .info {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 18px;
+    color: #000000;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tag {
+    background: #4877d5;
+    padding: 8px 14px;
+    border-radius: 20px;
+  }
+  
+  .viewBtn {
+    border: none;
+    background: none;
+    color: #2563eb;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  

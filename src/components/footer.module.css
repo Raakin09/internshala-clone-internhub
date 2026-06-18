@@ -1,0 +1,28 @@
+.footer {
+    background: #1e2f46;
+    color: white;
+    padding: 60px 100px;
+    margin-top: 50px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+  }
+  
+  .grid h3 {
+    margin-bottom: 20px;
+  }
+  
+  .grid p {
+    margin: 12px 0;
+    color: #cbd5e1;
+  }
+  
+  .bottom {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid #475569;
+    padding-top: 20px;
+  }

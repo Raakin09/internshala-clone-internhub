@@ -1,0 +1,159 @@
+.navbar {
+    height: 80px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .leftSection {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: 700;
+    color: #2563eb;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .navLinks a:hover {
+    color: #2563eb;
+  }
+  
+
+  
+  .searchContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .searchWrapper {
+    position: relative;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 18px;
+  }
+  
+  .searchBar {
+    width: 380px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    background: #f1f5f9;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+    color: #000000;
+  }
+  
+  .searchBar:focus {
+    background: #e2e8f0;
+  }
+ 
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+ 
+  
+  .googleBtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    border: 1px solid #dbeafe;
+    padding: 13px 22px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    color: #000000;
+  }
+  
+  .googleBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+  }
+  
+  .googleIcon {
+    font-size: 22px;
+  }
+  
+
+  
+  .registerBtn {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 13px 24px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .registerBtn:hover {
+    background: #1d4ed8;
+  }
+  
+ 
+  
+  .admin {
+    color: #2563eb;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .profilePic {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  
+  .logoutBtn {
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    background: transparent;
+  
+  }
+  
+  .logoutBtn:hover {
+    color: #2563eb;
+  }
+

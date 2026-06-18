@@ -1,0 +1,159 @@
+.container {
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .filterBox {
+    width: 280px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    height: fit-content;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  
+  .filterHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .filterHeader h3 {
+    font-size: 20px;
+  }
+  
+  .filterHeader p {
+    color: #2563eb;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .inputGroup {
+    margin-bottom: 18px;
+    color: #000000;
+  }
+  
+  .inputGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    color: #000000;
+  }
+  
+  .checkbox {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    color: #000000;
+  }
+  
+  .salarySection {
+    margin-top: 25px;
+    color: #000000;
+  }
+  
+  .salarySection label {
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  .salarySection input {
+    width: 100%;
+    margin-top: 15px;
+    color: #000000;
+  }
+  
+  .rangeText {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .jobsSection {
+    flex: 1;
+    color: #000000;
+  }
+  
+  .jobsFound {
+    background: rgb(255, 255, 255);
+    padding: 18px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .jobCard {
+    background: white;
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  
+  .hiring {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #2563eb;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .jobCard h2 {
+    font-size: 32px;
+    color: #111827;
+  }
+  
+  .company {
+    color: #6b7280;
+    margin-bottom: 25px;
+  }
+  
+  .jobDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .jobDetails div {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .jobDetails p {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .jobDetails span {
+    font-size: 15px;
+    color: #111827;
+  }
+  
+  .bottomRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .tag {
+    background: #f3f4f6;
+    padding: 8px 14px;
+    border-radius: 20px;
+  }
+  
+  .viewBtn {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+  }

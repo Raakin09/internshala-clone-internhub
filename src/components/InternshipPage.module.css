@@ -1,0 +1,115 @@
+.container {
+    width: 85%;
+    margin: 50px auto;
+  }
+  
+  .layout {
+    display: flex;
+    gap: 35px;
+  }
+  
+  .leftSection {
+    flex: 2;
+  }
+  
+  .rightSection {
+    flex: 1;
+  }
+  
+  .headerCard,
+  .sectionCard,
+  .applyCard {
+    background: white;
+    border-radius: 22px;
+    padding: 35px;
+    box-shadow:
+      0 5px 25px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+  }
+  
+  .title {
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .company {
+    color: #2563eb;
+    margin-bottom: 30px;
+
+  }
+  
+  .details {
+    display: flex;
+    gap: 20px;
+    color: black;
+  }
+  
+  .detailCard {
+    flex: 1;
+    background: #f8fafc;
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: black;
+  }
+  
+  .detailCard svg {
+    font-size: 24px;
+    color: #2563eb;
+  }
+  
+  .sectionCard h2 {
+    margin-bottom: 20px;
+    color: rgb(255, 0, 0);
+  }
+  
+  .sectionCard p,
+  .sectionCard li {
+    line-height: 1.8;
+    color: #4b5563;
+  }
+  
+  .skills {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
+  .skills span {
+    background: #eff6ff;
+    color: #2563eb;
+    padding: 10px 18px;
+    border-radius: 25px;
+  }
+  
+  .rules p {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .rules svg {
+    color: green;
+  }
+  
+  .applyCard {
+    position: sticky;
+    top: 120px;
+    color: black;
+  }
+  
+  .applyBtn {
+    width: 100%;
+    margin-top: 25px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 18px;
+  }

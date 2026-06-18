@@ -1,0 +1,87 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    z-index: 999;
+  }
+  
+  .modal {
+    background: white;
+    width: 500px;
+    border-radius: 24px;
+    padding: 35px;
+    position: relative;
+  }
+  
+  .modal h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: black;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+  
+    border: none;
+    background: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: black;
+  }
+  
+  .form input,
+  .form textarea {
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 16px;
+    outline: none;
+    color: black;
+  }
+  
+  .form input:focus,
+  .form textarea:focus {
+    border-color: #2563eb;
+  }
+  
+  .submitBtn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .submitBtn:hover {
+    background: #1d4ed8;
+  }
+  .successBox {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .successBox h2 {
+    color: #16a34a;
+    margin-bottom: 15px;
+  }
+  
+  .successBox p {
+    color: #6b7280;
+    line-height: 1.6;
+  }
