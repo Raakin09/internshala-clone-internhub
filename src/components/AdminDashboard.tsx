@@ -6,7 +6,7 @@ export default function AdminDashboard() {
   const router = useRouter();
   const handleLogout = () => {
     localStorage.removeItem("isAdmin");
-    router.push("/admin/login");
+    router.push("/");
   };
 
   const [stats, setStats] =
